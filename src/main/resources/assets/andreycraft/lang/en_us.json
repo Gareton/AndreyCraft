@@ -1,0 +1,22 @@
+{
+	"itemGroup.andreycrafttab": "AndreyCraft",
+
+	"item.andreycraft.kabachok_item": "Kabachok",
+	"item.andreycraft.kekanite_ingot": "Kekanitoviy slitok",
+	"item.andreycraft.kekanite_nugget": "Kekanitoviy samarodok",
+	
+	"item.andreycraft.kabachkovi_sword": "Kabachkoviy mech",
+	"item.andreycraft.kabachkovaya_pickaxe": "Kabachkovaya Kirka",
+	"item.andreycraft.kabachkovaya_shovel": "Kabachkovaya Lopata",
+	"item.andreycraft.kabachkovi_axe": "Kabachkoviy tapor",
+	"item.andreycraft.kabachkovaya_hoe": "Kabachkovaya Motiga",
+	
+	"item.andreycraft.kabachkovi_helmet": "Kabachkovaya shapochka",
+	"item.andreycraft.kabachkovi_chestplate": "Kabachkovaya rubashka",
+	"item.andreycraft.kabachkovi_leggings": "Kabachkovie shtani",
+	"item.andreycraft.kabachkovi_boots": "Kabachkovie botinki",
+	
+	"block.andreycraft.kabachkovi_block": "Block kabachkov",
+	"block.andreycraft.kekanite_block": "Block kekanita",
+	"block.andreycraft.kekanite_ore": "Kekanitovaya ruda"
+}

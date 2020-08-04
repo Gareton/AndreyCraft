@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "andreycraft:kekanite_ore"
+  },
+  "result": "andreycraft:kekanite_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "andreycraft:kekanite_nugget"
+    }
+  },
+  "result": {
+    "item": "andreycraft:kekanite_ingot",
+    "count": 1
+  }
+}
