@@ -19,7 +19,7 @@ public class KekanitOreGen {
 				ConfiguredPlacement customConfig = Placement.COUNT_RANGE
 						.configure(new CountRangeConfig(20, 5, 5, 25));
 				biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
-					.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.kekanite_ore.getDefaultState(), 10))
+					.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.kekanite_ore.get().getDefaultState(), 10))
 					.withPlacement(customConfig));
 		} 
 	}

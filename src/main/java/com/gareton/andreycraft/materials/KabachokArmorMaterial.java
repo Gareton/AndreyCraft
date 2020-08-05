@@ -17,7 +17,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 public enum KabachokArmorMaterial implements IArmorMaterial 
 {
 	KABACHOK(AndreyCraft.MOD_ID + ":kabachok", 1000000000, new int[] {1000000000, 1000000000, 1000000000, 1000000000}, 420, SoundEvents.ITEM_CHORUS_FRUIT_TELEPORT, 10000F, () -> {
-		return Ingredient.fromItems(ItemInit.kabachok_item);
+		return Ingredient.fromItems(ItemInit.kabachok_item.get());
 	});
 	
 	private static final int[] MAX_DAMAGE_ARRAY = new int[] {1000000000, 1000000000, 1000000000, 1000000000};

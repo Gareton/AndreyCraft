@@ -11,7 +11,7 @@ import net.minecraft.util.LazyValue;
 public enum KabachokItemTier implements IItemTier
 {	
 	KABACHOK(4, 100000, 10000.0f, 1.0f, 20, () -> {
-		return Ingredient.fromItems(ItemInit.kabachok_item);
+		return Ingredient.fromItems(ItemInit.kabachok_item.get());
 	});
 	
 	private final int harvestLevel;
