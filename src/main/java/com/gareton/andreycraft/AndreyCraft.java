@@ -3,6 +3,8 @@ package com.gareton.andreycraft;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.gareton.andreycraft.init.ModContainerTypes;
+import com.gareton.andreycraft.init.ModTileEntityTypes;
 import com.gareton.andreycraft.init.BlockInit;
 import com.gareton.andreycraft.init.ItemInit;
 import com.gareton.andreycraft.world.gen.KekanitOreGen;
@@ -43,6 +45,8 @@ public class AndreyCraft
     	//make sure order is right
     	ItemInit.ITEMS.register(modEventBus);
     	BlockInit.BLOCKS.register(modEventBus);
+    	ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
+    	ModContainerTypes.CONTAINER_TYPES.register(modEventBus);
     	
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);

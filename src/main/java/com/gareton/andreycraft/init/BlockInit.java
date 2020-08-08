@@ -1,6 +1,7 @@
 package com.gareton.andreycraft.init;
 
 import com.gareton.andreycraft.AndreyCraft;
+import com.gareton.andreycraft.objects.blocks.TestChestBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -34,5 +35,12 @@ public class BlockInit {
 			.hardnessAndResistance(10.0f, 20.0f)
 			.sound(SoundType.STONE)
 			.harvestTool(ToolType.PICKAXE)
+			.harvestLevel(4)));
+	
+	public static final RegistryObject<Block> test_chest = BLOCKS.register("test_chest", () -> new TestChestBlock(Block.Properties
+			.create(Material.WOOD)
+			.hardnessAndResistance(10.0f, 20.0f)
+			.sound(SoundType.WOOD)
+			.harvestTool(ToolType.AXE)
 			.harvestLevel(4)));
 }

@@ -18,5 +18,8 @@
 	
 	"block.andreycraft.kabachkovi_block": "Block kabachkov",
 	"block.andreycraft.kekanite_block": "Block kekanita",
-	"block.andreycraft.kekanite_ore": "Kekanitovaya ruda"
+	"block.andreycraft.test_chest": "Kabachkoviy sunduk",
+	"block.andreycraft.kekanite_ore": "Kekanitovaya ruda",
+	
+	"container.test_chest": "Kabachkoviy sunduk"
 }
